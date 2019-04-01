@@ -1,0 +1,22 @@
+// Inheritance & Polymorphism
+
+/*
+TOC :
+Inheritance : Code Reuse
+
+i) extends(Concrete Class; Abatract Class) 
+ii) implements (Interfaces)
+iii) nested classes
+
+Is-A relatiohship : sense of hierarchy
+Has-A relatiohship : sense of utilisation
+
+
+Association Vs Composition Vs Aggregation
+
+*/
+ 
+
+
+
+*/

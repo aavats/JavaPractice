@@ -1,0 +1,30 @@
+1. write java code in notepad
+2.save with .*java 
+3.open cmd
+4. you can change the drive by simply writing the nme with :
+5. example if you are in C drive by default, write E: to navigate to your java file
+6. next step is to make the current directory the one where your java file is saved
+7.whem i made this notepad file, i had saved my java HelloWorld file in E:\>MyJava>
+8. so now, when i open cmd i am in C:\>Users>Alice 
+9.Write E:
+10. you ll be navigated to E:/
+11.write cd MyJava
+12. result E:/>MyJava
+13. write javac HelloWorld.java
+14. then java HelloWorld
+
+
+Types of errors I faced
+1. At first the java bin folder was not found
+2. I went to control panel and set the value of environment path variable as the location of jdk 1.8.101
+3.then too I was facing the same error
+4. in cmd I wrote set path=address of bin folder of jdk
+5. error resolved
+6. next I was getting an eror in java interpreter, where the interpreter was not able to load main class file
+7. that was happening because in my java code I has a package imported
+8. when you have a package imported 
+It must be called with its fully-qualified name:
+
+java -classpath . thepackagename.TheClassName
+9. I removed the package import statement from the code and then called the interpreter
+10. SUCCESS.
